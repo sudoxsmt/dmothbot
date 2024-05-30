@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "chrome_2",
+  "version": "1.2.4",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.demononline.in.th/html/map/index.php"
+      ],
+      "js": [
+        "static/allmap_static_function.js",
+        "static/allmap_var_function.js",
+        "dynamic/allmap_test.js",
+        "map/allmap_map.js",
+        "start_dmo.js"
+      ]
+    }
+  ]
+}
