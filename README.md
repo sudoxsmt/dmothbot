@@ -1,4 +1,4 @@
-For education only
+For education only (Demon Online)
 
 Download all files and import as chrome extension
 
